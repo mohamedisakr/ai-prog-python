@@ -21,7 +21,17 @@ rainfall = 5e6
 
 # subtract 2.5e5 cubic metres from reservoir_volume to account for water
 # that's piped to arid regions.
-print(reservoir_volume - 2.5e5)
+# print(reservoir_volume - 2.5e5)
 
 # print the new value of the reservoir_volume variable
-print(reservoir_volume)
+# print(reservoir_volume)
+
+# Quiz: Changing Variable Values
+carrots = 24
+rabbits = 8
+crs_per_rab = carrots/rabbits
+print(crs_per_rab)
+
+rabbits = 12
+crs_per_rab = carrots/rabbits
+print(crs_per_rab)
