@@ -32,4 +32,4 @@ driving_license_character_limit = 28
 print(f'full name length {name_length}')
 print(name_length <= driving_license_character_limit)
 
-print(len(835))
+# print(len(835))
