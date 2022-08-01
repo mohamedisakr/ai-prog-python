@@ -35,3 +35,5 @@ print(crs_per_rab)
 rabbits = 12
 crs_per_rab = carrots/rabbits
 print(crs_per_rab)
+
+del rabbits
