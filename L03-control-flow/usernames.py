@@ -4,7 +4,7 @@ usernames = []
 
 # write your for loop here
 for name in names:
-    usernames.append(name.replace(" ", "_"))
+    usernames.append(name.lower().replace(" ", "_"))
 
 # usernames = ["joey_tribbiani", "monica_geller", "chandler_bing",
 #               "phoebe_buffay"]
