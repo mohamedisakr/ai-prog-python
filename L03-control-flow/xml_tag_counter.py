@@ -3,7 +3,7 @@ count = 0
 
 # write your for loop here
 for token in tokens:
-    if token.startswith("<"):
+    if token[0] == '<' and token[-1] == '>':  # if token.startswith("<"):
         count += 1
 
 print(count)
