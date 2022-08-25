@@ -1,5 +1,3 @@
-from turtle import ht
-
 
 items = ['first string', 'second string']
 html_str = "<ul>\n"
